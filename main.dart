@@ -9,6 +9,15 @@ void main(List<String> args) {
 
   print("hello world my name is $name and i have ${11 + 10} years old");
 
-  //Tupper
+  //Toupper
   print("Hello world my names is ${name.toUpperCase()}");
+
+  //Variables con posibilad nula
+  String? name1 = null;
+
+  print("El nombre es ${name1 ?? 'Invitado'}");
+
+  int? age1;
+
+  print("Mi edad es de ${age1 ?? 21}");
 }
